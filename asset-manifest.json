@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/weather-spectra-app/static/css/main.790d97ef.css",
+    "main.js": "/weather-spectra-app/static/js/main.23dfebf3.js",
+    "index.html": "/weather-spectra-app/index.html",
+    "main.790d97ef.css.map": "/weather-spectra-app/static/css/main.790d97ef.css.map",
+    "main.23dfebf3.js.map": "/weather-spectra-app/static/js/main.23dfebf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.790d97ef.css",
+    "static/js/main.23dfebf3.js"
+  ]
+}
