@@ -36,7 +36,7 @@
     ]
   },
 
-  "homepage": "http://dokugo90.github.io//",
+  "homepage": "http://dokugo90.github.io/weather-spectra-app/",
   "scripts": {
     "start": "react-scripts start",
    "predeploy": "npm run build",
