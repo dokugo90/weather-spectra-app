@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root {
+  /*font-family: Inter, Avenir, Helvetica, Arial, sans-serif;*/
+  font-family: 'Concert One', cursive;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow: auto;
+  user-select: none;
+  font-family: 'Concert One', cursive;
+}
+
+.weather-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.weather-modal {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-app-child {
+  width: 500px;
+  height: 500px;
+  background-color: black; /*rgba(255, 255, 255, 0.5)*/
+  border-radius: 15px;
+  box-shadow: 0px 15px 10px black;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.search-bar {
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 30px;
+  border-bottom: 3px solid white;
+  background: transparent;
+  font-weight: bolder;
+  color: white;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 15px;
+}
+
+.app-name {
+ text-align: center;
+  font-family: 'Concert One', cursive;
+}
+
+.theme-mode-btn {
+  position: absolute;
+  left: 0%;
+  top: 1%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.error-msg {
+  position: fixed;
+width: clamp(275px, 50%, 300px);
+height: 50px;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0 ;
+  bottom: .1%;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
