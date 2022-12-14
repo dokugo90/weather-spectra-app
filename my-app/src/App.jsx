@@ -158,6 +158,10 @@ function App() {
   window.addEventListener("offline", () => {
     setOffline(true)
   })
+  window.addEventListener("online", () => {
+    setOffline(false)
+    getWeather()
+  })
 
   if (offline == true) {
     otherTimer.current = setTimeout(function() {
