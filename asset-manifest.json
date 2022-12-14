@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/weather-spectra-app/static/css/main.790d97ef.css",
-    "main.js": "/weather-spectra-app/static/js/main.c6464e8f.js",
+    "main.js": "/weather-spectra-app/static/js/main.9fabdd61.js",
     "index.html": "/weather-spectra-app/index.html",
     "main.790d97ef.css.map": "/weather-spectra-app/static/css/main.790d97ef.css.map",
-    "main.c6464e8f.js.map": "/weather-spectra-app/static/js/main.c6464e8f.js.map"
+    "main.9fabdd61.js.map": "/weather-spectra-app/static/js/main.9fabdd61.js.map"
   },
   "entrypoints": [
     "static/css/main.790d97ef.css",
-    "static/js/main.c6464e8f.js"
+    "static/js/main.9fabdd61.js"
   ]
 }
