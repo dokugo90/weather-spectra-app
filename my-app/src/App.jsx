@@ -110,7 +110,7 @@ function App() {
 
   async function getWeather() {
     try {
-        const locationReq = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${country}&limit=${1}&appid=28fe7b5f9a78838c639143fc517e4343`, {
+        const locationReq = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${country}&limit=${1}&appid=28fe7b5f9a78838c639143fc517e4343`, {
           mode: "cors"
         })
         const locationRes = await locationReq.json()
